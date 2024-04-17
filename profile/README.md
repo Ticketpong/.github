@@ -294,11 +294,8 @@
 <hr>
 
 ### 5.  개발 기간 및 작업 관리
+![타임](https://github.com/Ticketpong/.github/assets/154482912/bc345951-49e2-468b-99fa-30d9d71555da)
 
-#### 전체 개발 기간
-<li>2024.03.12 ~ 2024.04.17 </li>
-<li>UI 구현: </li>
-<li>기능 구현: </li>
 
 #### 작업 관리
 
@@ -319,125 +316,255 @@
 | :---: |
 | ![header](https://github.com/Ticketpong/.github/assets/154482912/7ca4663b-0e14-472a-acc5-7e5f777a167c) |
 
-#### []
+#### [배너 슬라이더]
 
-<li></li>
-<li></li>
-<li></li>
+<li> isActive와 setInterval을 이용하여 이미지 페이드 효과 구현</li>
+<li> 검색어 입력시 keyword가 업데이트되며 엔터/아이콘 클릭 시 handleSearch 함수 호출</li>
+<li> fetch 함수를 사용하여 서버에 요청을 보낸 후 response.json으로 변환</li>
 
-|      |
+|  배너 슬라이더    |
 | :---: |
-|      |
+|   ![회원가입](https://github.com/Ticketpong/.github/assets/154482912/ff661e1e-e8f6-4402-8a2e-c438f369d2e0)
+   
 
-#### []
+#### [카테고리 슬라이더]
 
-<li></li>
-<li></li>
-<li></li>
+<li> 모든 데이터는 useEffect와 axios를 통해 MariaDB에 연결하여, URL을 통해 출력</li>
+<li> 데이터 내부에서 카테고리를 가져왔을때, getdisplayedData 함수를 통해 버튼별로 분류</li>
+<li> categoryButton이 눌릴 때, hadleCategoryChange 함수를 실행하며, 분류별로 출력</li>
 
-|      |
+|   카테고리 슬라이더   |
 | :---: |
-|      |
+|   ![카테고리배너](https://github.com/Ticketpong/.github/assets/154482912/0f4b559f-0e3a-413c-a90c-0dfa3b9a9a3a)
+   
 
-#### []
+#### [Login]
 
-<li></li>
-<li></li>
-<li></li>
+<li> useState와 axios로 로그인 내용을 backend로 전달</li>
+<li> 로그인 버튼 클릭시 backend 전송후 성공 시 token을 생성</li>
+<li> Token 생성후 localStorage에 isLogined, userId을 토큰으로 저장</li>
 
-|      |
+|   Login   |
 | :---: |
-|      |
+|    ![로그인](https://github.com/Ticketpong/.github/assets/154482912/bff53e6d-3571-4df7-b1d0-030bc62c2624)
+  
 
-#### []
+#### [Sign up]
 
-<li></li>
-<li></li>
-<li></li>
+<li> useState로 변경변수, 주소검색창, 아이디, 이메일 체크 되도록 구현</li>
+<li> react-daum-posstcode로 주소 검색 구현</li>
+<li> 아이디/이메일 확인을 axios로 체크한 뒤, 회원가입이 가능하도록 구현</li>
 
-|      |
+|    Sign up  |
 | :---: |
-|      |
+|   ![회원가입(수정)](https://github.com/Ticketpong/.github/assets/154482912/01a9ebf1-cbab-40dc-950e-33d26a4e8216)
+   
 
-#### []
+#### [ID/PW 찾기]
 
-<li></li>
-<li></li>
-<li></li>
+<li> useState로 변수 설정</li>
+<li> axios로 백엔드와 연결 후 결과값 반환  </li>
+<li> 결과값을 useNavigate로 페이지 이동과 함께 state로 결과값 전달 </li>
+<li> 전달받은 값은 useLocation로 받아와 변수에 저장</li>
 
-|      |
+|   ID/PW 찾기   |
 | :---: |
-|      |
+|   ![아이디_비밀번호 찾기](https://github.com/Ticketpong/.github/assets/154482912/39bb0dd7-8b14-49f8-9e6a-736054cbd8f9)
+   
 
-#### []
+#### [Boxoffice Ranking]
 
-<li></li>
-<li></li>
-<li></li>
+<li> 모든 데이터는 useEffect와 axios를 통해 MariaDB에 연결하여, URL을 통해 출력</li>
+<li> 박스오피스 순위 테이블을 가져와서, 순위별로 순서대로 출력</li>
 
-|      |
+|   Boxoffice Ranking   |
 | :---: |
-|      |
+|     |
 
-#### []
+#### [전체 공연 카테고리]
 
-<li></li>
-<li></li>
-<li></li>
+<li> 위치기반 필터링을 활성화하여 handleGeographyChange 함수를 호출</li>
+<li> 현재 사용자의 위치 정보(위도, 경도)를 가져오기 위해 브라우저의 geolocation API를 이용</li>
+<li> 선택한 카테고리에 따라 공연을 필터링하여 getDisplayedData 함수 호출</li>
+<li> 위치정보 버튼을 누를 경우, 위치 액세스를 할 경우, 사용자 주변 반경 11km 범위의 데이터를 제공</li>
+<li> 공연 데이터를 선택한 기준에 따라 보여주는 filteredData를 출력</li>
 
-|      |
+|   전체 공연 카테고리   |
 | :---: |
-|      |
+|   ![공연 카테고리](https://github.com/Ticketpong/.github/assets/154482912/558a3b04-b417-467f-a215-24c32fab6aa8)
+   
 
-#### []
+#### [더보기 및 데이터 정렬]
 
-<li></li>
-<li></li>
-<li></li>
+<li> 출력하는 데이터의 갯수를 제한해놓고, 더보기버튼을 누르면 handelLoadMore 함수를 실행</li>
+<li> 출력된 모든 데이터들은 handleSortBy 함수에 의해 가나다, 최근 등록순, 종료일 늦은 순으로 정렬 </li>
 
-|      |
+
+|   더보기 및 데이터 졍렬   |
 | :---: |
-|      |
+|   ![더보기 및 데이터 정렬](https://github.com/Ticketpong/.github/assets/154482912/ff306dff-8807-40e6-b413-4487441544b4)
+   
 
-#### []
+#### [공연 스케줄 처리]
 
-<li></li>
-<li></li>
-<li></li>
+<li> 예시와 같은 데이터가 들어오면 각 요일과 시간으로 분리 </li>
+<li> 날짜 범위가 ‘~’ 로 표기된 경우 인덱스 차이를 이용해 요일 설정</li>
+<li> 괄호 내부 시간 데이터 추출</li>
 
-|      |
+|   공연 스케줄 처리   |
 | :---: |
-|      |
+|   ![1 공연 스케줄 처리](https://github.com/Ticketpong/.github/assets/154482912/b1c4f393-108f-49ef-9eed-469d78a33f2b)
+   
 
-#### []
+#### [좌석 선택 및 예매]
 
-<li></li>
-<li></li>
-<li></li>
+<li> 불러온 공연 데이터 기반 예매 가능 날짜와 시간 설정 </li>
+<li> 기존 예매자 회원정보 데이터와 카드 할인율 반영하여 결제 요청</li>
+<li> 결제 요청 성공시 콜백 함수 실행하여 DB에 예매 정보 저장</li>
 
-|      |
+|   좌석 선택 및 예매   |
 | :---: |
-|      |
+|   ![2 좌석 선택 및 예매](https://github.com/Ticketpong/.github/assets/154482912/3f238424-9fc1-4b1e-bfe5-184b6ce6cc71)
+   
 
-#### []
+#### [예매 기기 미등록/ 불일치 시]
 
-<li></li>
-<li></li>
-<li></li>
+<li>- 등록된 기기와 접속한 기기 불일치 시 예매 불가</li>
+<li>- 기기 미등록 시 기기 등록 페이지로 이동 후 기기 등록
+  (30일 이후 재등록 가능)</li>
 
-|      |
+|   예매 기기 미등록/불일치 시   |
 | :---: |
-|      |
+|   ![3 예매(기기 미등록)](https://github.com/Ticketpong/.github/assets/154482912/9e25db65-274e-4c25-85ec-7cec4df5f6f2)
+   
 
-#### []
+#### [공연 상세페이지]
 
-<li></li>
-<li></li>
-<li></li>
+<li> 각 탭별 인덱스 부여 </li>
+<li> 해당 공연의 리뷰 데이터 호출</li>
+<li> 해당 공연의 공연 시설 위도, 경도 추출하여 지도 표시 및 길찾기 기능 지원</li>
 
-|      |
+|    공연 상세페이지  |
 | :---: |
-|      |
+|   ![4 공연 상세페이지 탭](https://github.com/Ticketpong/.github/assets/154482912/092a66df-d2ff-4ca9-8506-eacc16936ac5)
+   
+
+##### [커뮤니티]
+
+
+<li> 공지사항 게시판, 리뷰 전체, 이용사항 안내 조회 가능</li>
+<li> URL을 통해 리뷰 데이터 테이블에 연결하여 추천수, 별점, 리뷰 내용을 출력</li>
+<li> 본인이 등록한 리뷰 CRUD 가능  </li>
+<li> recommandHandler 함수를 통해 로그인되어 있다면, 추천을 줄 수 있음</li>
+
+|   커뮤니티  |
+| :---: |
+| ![커뮤니티](https://github.com/Ticketpong/.github/assets/154482912/8ef87721-d1cc-4d45-99fd-3da10f8c25a4)
+ 
+
+##### [예매 내역]
+
+
+<li> 해당 유저의 예매 데이터를 서버에서 가져와 렌더링</li>
+<li> 예매 취소 시 오늘 날짜와 예매한 공연 날짜 비교 후 관람일 이전에만 취소 가능</li>
+<li> 이미 결제 취소 되거나 취소 불가한 경우 처리</li>
+
+|   예매 내역  |
+| :---: |
+| ![5 예매 내역 확인 및 취소](https://github.com/Ticketpong/.github/assets/154482912/b8e39982-a3dc-47a7-a130-3d7d81150e7b)
+ 
+
+##### [후기 작성]
+
+
+<li> 관람일 이후 후기가 작성 되지 않았을 경우에만 작성 가능</li>
+<li> 해당 유저가 작성한 리뷰 데이터 인덱싱하여 각 리뷰별 렌더링</li>
+
+|   후기 작성  |
+| :---: |
+| ![6 예매 후기 작성](https://github.com/Ticketpong/.github/assets/154482912/088151d7-6047-4e5b-898e-ae9a61fd2fdf)
+ 
+
+##### [회원정보수정]
+
+
+<li> useState로 변경되는 변수를 설정</li>
+<li> useEffect, axiosWithAuth함수를 이용하여 Token값 가져오기</li>
+<li> axiosWithAuth는 localStorage에 있는 Token값을 받아와 decode 하는 함수</li>
+
+|  회원정보수정   |
+| :---: |
+| ![회원정보수정(수정)](https://github.com/Ticketpong/.github/assets/154482912/1dd3db45-6d13-4bf6-90ed-badc492285cf)
+ 
+
+##### [회원정보수정2]
+
+
+<li> useState로 변경되는 변수를 설정</li>
+<li> useEffect, axiosWithAuth함수를 이용하여 Token값 가져오기</li>
+<li> 비밀번호를 입력받아 backend로 전달, 처리 값 받기</li>
+<li> true일 경우에만 수정페이지로 id값과 함께 이동하도록 구현</li>
+
+|  회원정보수정2   |
+| :---: |
+| ![회원정보수정(수정)](https://github.com/Ticketpong/.github/assets/154482912/62dd4f63-952c-4c62-8b97-d157534e7246)
+ 
+
+##### [회원정보수정3]
+
+<li> useState로 변경되는 변수를 설정</li>
+<li> useEffect, axios로 backend에서 id별 정보를 가져와 저장</li>
+<li> value 값에 나와야 하는 값들의 변수를 넣어 화면에 출력되도록 구현</li>
+<li> 삭제, 수정 버튼을 누르면 그 값들이 backend로 넘어가 처리되도록 구현</li>
+
+|  회원정보수정3   |
+| :---: |
+| ![회원정보수정(수정)](https://github.com/Ticketpong/.github/assets/154482912/37ecfbb1-091c-468a-a252-6240328e1282)
+ 
+
+##### [회원관리 화면 & Paging]
+
+
+<li> useEffect와 axiosWithAuth를 이용하여 로그인 핸들링</li>
+<li> 회원 정보 리스트  출력</li>
+<li> ITEMS_PER_PAGE 상수로 사용하여 데이터를 페이지별로 렌더링</li>
+
+|   회원관리 화면 & Paging  |
+| :---: |
+|  |
+
+##### [공연 관리 리스트]
+
+
+<li> useState 훅을 사용하여 현재 페이지(currentPage)와 데이터를 관리</li>
+<li> fetchData 함수를 호출하여 서버에서 공연 데이터를 가져옴</li>
+
+
+|   공연 관리 리스트  |
+| :---: |
+|  |
+
+##### [공연 등록 화면]
+
+
+<li> 사용자가 "완료" 버튼을 클릭했을 때 submit 함수가 실행</li>
+<li></li>
+<li></li>
+
+|   공연 등록 화면  |
+| :---: |
+|  |
+
+##### [회원관리화면 & Paging]
+
+
+<li> map 함수를 사용하여 각 리뷰를 ReviewItem 컴포넌트로 렌더링</li>
+<li> fetchData 함수로 최근 리뷰 목록을 가져옴</li>
+<li> goToPrevPage, goToNextPage 함수 사용해서 페이징 처리</li>
+
+|   회원관리화면 & Paging  |
+| :---: |
+|  |
 
 <hr>
 
