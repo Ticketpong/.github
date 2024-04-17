@@ -1,13 +1,15 @@
+![main](https://github.com/Ticketpong/.github/assets/154482912/fa4a1591-3841-42ca-988b-f41b2581b9ea)
+<br/>
+<br/>
 <div>
-  <h1> 금융 데이터 기반 티켓 할인 예매 사이트 Ticketpong </h1>
 <h3>프로젝트 소개</h3>
   <li> 티켓 예매 사이트 티켓퐁은 독점 방지를 위한 예매사이트 분산의 필요성과 소비자 편의성 제공을 목적으로 시작했습니다. </li>
   <li> 문화생활에 대한 접근성을 높일 수 있는 정보 집약적 서비스 구현을 목표로 하고 있습니다.</li>
-  <li> 로그인을 하지 않더라도, 공연예정 일정이나 잔여 티켓 확인이 가능합니다.</li>
-  <li> 회원가입시, 기기등록을 통해 티켓예매 및 예매기록을 통해 공연에 대한 리뷰 등록이 가능합니다.</li>
-  <li> 티켓 예매시 기기 등록을 통해 예매숫자를 제한하고 있습니다.</li>
+  <li> 카드별 할인 혜택을 제공하는 결제 구조를 구현했습니다..</li>
+  <li> 위치기반 서비스로 지역별 공연 마케팅 효과를 만들고자 했습니다.</li>
+  <li> 안전한 예매를 위한 사용자 인증 기기 등록이 가능합니다.</li>
 </div>
-
+<br/>
 <hr>
 
 ### 팀원 구성
@@ -15,32 +17,28 @@
 | :--------: | :--------: | :------: | :-----: | :-----: | :-----: |
 |  조장 |   백엔드    | 백엔드 | 프론트 | 프론트 | 프론트 |
 
+<br/>
 <hr>
 
-<div>
-  <h3>1. 개발 환경</h3>
-  <div>
-  <span>Front</span>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
-<img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=whit">
-<img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-<div>
-<div >
-  <span>Back-end</span>
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
-<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
-<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white">
-<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge">
-</div>
-<div>
-  <span>협업 툴</span>
-<img src="	https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
-<img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white">
-<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
-</div>
 
+### 1. 개발 환경</h3>
+
+  #### Front
+  |Java | HTML|CSS3 | React| 
+  |:----:|:----:|:-----:|:-:|
+  |![Java](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white) | ![html](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=whit) | ![css](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=whit) | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) |
+  
+#### Back-end
+  |Node.js | MySQL|MariaDB | Express.js| 
+  |:----:|:----:|:-----:|:-:|
+  |![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) | ![html](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) | ![css](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) | ![React](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge) |
+
+  #### 협업툴
+  |Vscode | Zoom| Github | Figma| 
+  |:----:|:----:|:-----:|:-:|
+  |![](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) | ![](https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white) | ![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) | ![](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) |
+  
+<br/>
 <hr>
 
 <div>
@@ -65,10 +63,16 @@
   <li>develop 브랜치는 개발 단계에서 git-flow의 master 역할을 하는 브랜치입니다.</li>
   <li>Feat 브랜치는 기능 단위로 독립적인 개발 환경을 위하여 사용하고 merge 후 각 브랜치를 삭제해주었습니다.</li>
 </div>
+<br/>
+<hr>
+  
+### 3. ERD
+![ERD](https://github.com/Ticketpong/.github/assets/154482912/68d0de05-7ffc-45e5-b1d4-fcdac9164435)
 
+<br/>
 <hr>
 
-### 3.  프로젝트 구조
+### 4.  프로젝트 구조
 
 #### Front
 
@@ -77,27 +81,6 @@
    - App.css
    - App.js
    - assets
-      - footerImg
-         - arrowIcon.png
-      - headerImg
-         - header_userIcon.png
-         - logo.png
-         - menuIcon.png
-         - nav_commIcon.png
-         - nav_showIcon.png
-         - nav_userIcon.png
-         - poster_sample.jpg
-      - homeImg
-         - free-icon-like-179655.png
-         - mainImg_01.jpg
-         - mainImg_02.jpg
-         - searchIcon_p.png
-         - searchIcon_w.png
-      - searchResultImg
-         - posterImg.jpg
-         - search_topImg.jpg
-      - ViewAllImg
-         - Image20240328164620.jpg
    - components
       - base
          - ApiDataFetcher.js
@@ -249,10 +232,10 @@
    - signupService.js
    - viewAllService.js
 - sessions
-
+<br/>
 <hr>
 
-### 4.  역할 분담
+### 5.  역할 분담
 
 #### 황인식
 
@@ -290,21 +273,23 @@
 
 <li>디자인 설계</li>
 <li>스타일 가이드 작성</li>
-
+<br/>
 <hr>
 
-### 5.  개발 기간 및 작업 관리
-![타임](https://github.com/Ticketpong/.github/assets/154482912/bc345951-49e2-468b-99fa-30d9d71555da)
+### 6.  개발 기간 및 작업 관리
+![time](https://github.com/Ticketpong/.github/assets/154482912/b20a5c0f-50e5-4f90-8745-360ec59f9f05)
 
+<br/>
+<hr>
 
 #### 작업 관리
 
 <li>Zoom을 이용해서 실시간 소통을 하면서 상황을 공유하며 진행했습니다.</li>
 <li>Git-flow 전략을 기반으로 main, feature, develop 브랜치를 운용했습니다. </li>
-
+<br/>
 <hr>
 
-### 6. 기능 설명
+### 7. 기능 설명
 
 #### [Header]
 <li> useEffect와 axiosWithAuth를 이용, 사용자 인증 토큰을 포함하여 로그인 구현 </li>
@@ -316,6 +301,8 @@
 | :---: |
 | ![header](https://github.com/Ticketpong/.github/assets/154482912/7ca4663b-0e14-472a-acc5-7e5f777a167c) |
 
+<br/>
+
 #### [배너 슬라이더]
 
 <li> isActive와 setInterval을 이용하여 이미지 페이드 효과 구현</li>
@@ -325,7 +312,8 @@
 |  배너 슬라이더    |
 | :---: |
 |   ![회원가입](https://github.com/Ticketpong/.github/assets/154482912/ff661e1e-e8f6-4402-8a2e-c438f369d2e0)
-   
+
+   <br/>
 
 #### [카테고리 슬라이더]
 
@@ -336,7 +324,8 @@
 |   카테고리 슬라이더   |
 | :---: |
 |   ![카테고리배너](https://github.com/Ticketpong/.github/assets/154482912/0f4b559f-0e3a-413c-a90c-0dfa3b9a9a3a)
-   
+
+   <br/>
 
 #### [Login]
 
@@ -347,7 +336,8 @@
 |   Login   |
 | :---: |
 |    ![로그인](https://github.com/Ticketpong/.github/assets/154482912/bff53e6d-3571-4df7-b1d0-030bc62c2624)
-  
+
+  <br/>
 
 #### [Sign up]
 
@@ -358,7 +348,8 @@
 |    Sign up  |
 | :---: |
 |   ![회원가입(수정)](https://github.com/Ticketpong/.github/assets/154482912/01a9ebf1-cbab-40dc-950e-33d26a4e8216)
-   
+
+   <br/>
 
 #### [ID/PW 찾기]
 
@@ -370,7 +361,8 @@
 |   ID/PW 찾기   |
 | :---: |
 |   ![아이디_비밀번호 찾기](https://github.com/Ticketpong/.github/assets/154482912/39bb0dd7-8b14-49f8-9e6a-736054cbd8f9)
-   
+
+   <br/>
 
 #### [Boxoffice Ranking]
 
@@ -380,6 +372,8 @@
 |   Boxoffice Ranking   |
 | :---: |
 |     |
+
+<br/>
 
 #### [전체 공연 카테고리]
 
@@ -392,7 +386,8 @@
 |   전체 공연 카테고리   |
 | :---: |
 |   ![공연 카테고리](https://github.com/Ticketpong/.github/assets/154482912/558a3b04-b417-467f-a215-24c32fab6aa8)
-   
+
+   <br/>
 
 #### [더보기 및 데이터 정렬]
 
@@ -403,7 +398,8 @@
 |   더보기 및 데이터 졍렬   |
 | :---: |
 |   ![더보기 및 데이터 정렬](https://github.com/Ticketpong/.github/assets/154482912/ff306dff-8807-40e6-b413-4487441544b4)
-   
+
+   <br/>
 
 #### [공연 스케줄 처리]
 
@@ -415,6 +411,7 @@
 | :---: |
 |   ![1 공연 스케줄 처리](https://github.com/Ticketpong/.github/assets/154482912/b1c4f393-108f-49ef-9eed-469d78a33f2b)
    
+<br/>
 
 #### [좌석 선택 및 예매]
 
@@ -427,6 +424,8 @@
 |   ![2 좌석 선택 및 예매](https://github.com/Ticketpong/.github/assets/154482912/3f238424-9fc1-4b1e-bfe5-184b6ce6cc71)
    
 
+<br/>
+
 #### [예매 기기 미등록/ 불일치 시]
 
 <li>- 등록된 기기와 접속한 기기 불일치 시 예매 불가</li>
@@ -436,7 +435,8 @@
 |   예매 기기 미등록/불일치 시   |
 | :---: |
 |   ![3 예매(기기 미등록)](https://github.com/Ticketpong/.github/assets/154482912/9e25db65-274e-4c25-85ec-7cec4df5f6f2)
-   
+
+   <br/>
 
 #### [공연 상세페이지]
 
@@ -447,7 +447,8 @@
 |    공연 상세페이지  |
 | :---: |
 |   ![4 공연 상세페이지 탭](https://github.com/Ticketpong/.github/assets/154482912/092a66df-d2ff-4ca9-8506-eacc16936ac5)
-   
+
+<br/>
 
 ##### [커뮤니티]
 
@@ -460,7 +461,8 @@
 |   커뮤니티  |
 | :---: |
 | ![커뮤니티](https://github.com/Ticketpong/.github/assets/154482912/8ef87721-d1cc-4d45-99fd-3da10f8c25a4)
- 
+
+ <br/>
 
 ##### [예매 내역]
 
@@ -473,6 +475,7 @@
 | :---: |
 | ![5 예매 내역 확인 및 취소](https://github.com/Ticketpong/.github/assets/154482912/b8e39982-a3dc-47a7-a130-3d7d81150e7b)
  
+<br/>
 
 ##### [후기 작성]
 
@@ -485,6 +488,8 @@
 | ![6 예매 후기 작성](https://github.com/Ticketpong/.github/assets/154482912/088151d7-6047-4e5b-898e-ae9a61fd2fdf)
  
 
+<br/>
+
 ##### [회원정보수정]
 
 
@@ -496,6 +501,7 @@
 | :---: |
 | ![회원정보수정(수정)](https://github.com/Ticketpong/.github/assets/154482912/1dd3db45-6d13-4bf6-90ed-badc492285cf)
  
+<br/>
 
 ##### [회원정보수정2]
 
@@ -508,7 +514,8 @@
 |  회원정보수정2   |
 | :---: |
 | ![회원정보수정(수정)](https://github.com/Ticketpong/.github/assets/154482912/62dd4f63-952c-4c62-8b97-d157534e7246)
- 
+
+ <br/>
 
 ##### [회원정보수정3]
 
@@ -520,7 +527,9 @@
 |  회원정보수정3   |
 | :---: |
 | ![회원정보수정(수정)](https://github.com/Ticketpong/.github/assets/154482912/37ecfbb1-091c-468a-a252-6240328e1282)
- 
+
+
+ <br/>
 
 ##### [회원관리 화면 & Paging]
 
@@ -533,6 +542,8 @@
 | :---: |
 |  |
 
+<br/>
+
 ##### [공연 관리 리스트]
 
 
@@ -544,6 +555,8 @@
 | :---: |
 |  |
 
+<br/>
+
 ##### [공연 등록 화면]
 
 
@@ -551,9 +564,12 @@
 <li></li>
 <li></li>
 
+
 |   공연 등록 화면  |
 | :---: |
 |  |
+
+<br/>
 
 ##### [회원관리화면 & Paging]
 
@@ -565,11 +581,7 @@
 |   회원관리화면 & Paging  |
 | :---: |
 |  |
-
-<hr>
-
-### 7. 개선 목표
-
+<br/>
 <hr>
 
 ### 8. 프로젝트 후기
