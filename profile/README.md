@@ -544,7 +544,8 @@
 
 |   회원관리 화면 & Paging  |
 | :---: |
-|  |
+| ![회원, 공연 관리 페이지](https://github.com/Ticketpong/.github/assets/154482912/2da18cae-0aed-4ab6-b2be-f9ac85e9e96e)
+ |
 
 <br/>
 
@@ -564,27 +565,16 @@
 ##### [공연 등록 화면]
 
 
+<li> useState를 사용해 공연정보, 로그인 상태를 관리</li>
 <li> 사용자가 "완료" 버튼을 클릭했을 때 submit 함수가 실행</li>
-<li></li>
-<li></li>
+
 
 
 |   공연 등록 화면  |
 | :---: |
-|  |
-
-<br/>
-
-##### [회원관리화면 & Paging]
+| https://github.com/Ticketpong/.github/assets/154482912/6f567ec2-ff39-4011-bebe-95614e9b1db1 |
 
 
-<li> map 함수를 사용하여 각 리뷰를 ReviewItem 컴포넌트로 렌더링</li>
-<li> fetchData 함수로 최근 리뷰 목록을 가져옴</li>
-<li> goToPrevPage, goToNextPage 함수 사용해서 페이징 처리</li>
-
-|   회원관리화면 & Paging  |
-| :---: |
-|  |
 <br/>
 <hr>
 
